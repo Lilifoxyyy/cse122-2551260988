@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    background-color: #f4f4f4;
+    }
+
+    .banner {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 28px 36px;
+      color: #FFFFFF;
+      background: linear-gradient(160deg, #C9A227, #A8861B);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      box-sizing: border-box;
+    }
+
+    .banner h1 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #FFFFFF;
+      text-align: center;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .anh-noi {
+      width: 260px;
+      float: right;
+      margin: 0 0 14px 18px;
+      border: 3px solid rgba(255, 255, 255, 0.85);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .banner p {
+      margin-top: 0;
+      margin-bottom: 14px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .banner::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 12px;
+      }
+
+      .banner {
+        padding: 20px;
+      }
+
+      .banner h1 {
+        font-size: 21px;
+      }
+
+      .anh-noi {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 16px 0;
+      }
+    }
